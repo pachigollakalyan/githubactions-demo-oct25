@@ -1,0 +1,14 @@
+---
+name: run linux commands
+on: workflow_dispatch
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: execute linux commands
+        run: echo "hello All"
+  job2:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: execute set of linux
+        run: hostname -s echo "Thankyou"
