@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: execute set of linux
-        run: 
+        run: |
          hostname -s 
          echo "Thankyou"
